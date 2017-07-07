@@ -3,6 +3,7 @@ import './App.css';
 
 import Nav from './Nav/Nav';
 import Cart from './Cart/Cart';
+import Router from '../router'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Nav />
       <div id="App__mainContainer">
         <div id="App__routerContainer">
+        {Router}
           <Cart />
         </div>
       </div>
